@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920578886432",
+    "project_id": "puree-app",
+    "storage_bucket": "puree-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920578886432:android:cbae9de5e3aab2f9e36545",
+        "android_client_info": {
+          "package_name": "com.example.puree_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920578886432-2062lo1ditk7mu3qciujjp0hh5srgf6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv6nUwCUC2IMqJu4i_uarVBAW0d3inNrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920578886432-2062lo1ditk7mu3qciujjp0hh5srgf6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
