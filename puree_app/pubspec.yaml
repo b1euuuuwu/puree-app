@@ -8,13 +8,9 @@ environment:
 
 dependencies:
   firebase_core: ^2.7.0
-<<<<<<< HEAD
   google_sign_in: ^6.0.1
-=======
   flutter_svg: ^0.17.1
-  firebase_auth: ^4.2.9
   google_fonts: ^2.1.1
->>>>>>> front-end
   flutter:
     sdk: flutter
   firebase_auth: ^4.2.9
