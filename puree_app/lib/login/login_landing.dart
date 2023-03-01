@@ -78,10 +78,8 @@ class Login extends StatelessWidget {
                     style: TextStyle(fontSize: 15, color: Color(0xFF666666)),
                   ),
                   onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const Merchant()));
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => Merchant()));
                   },
                 )),
           )
