@@ -44,7 +44,7 @@ class Login extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(0, 50, 0, 0),
             child: SizedBox(
                 // alignment: Alignment.center,
-                width: 280,
+                width: 300,
                 height: 40,
                 child: ElevatedButton(
                   style: ButtonStyle(
@@ -64,7 +64,7 @@ class Login extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
             child: SizedBox(
                 // alignment: Alignment.center,
-                width: 280,
+                width: 300,
                 height: 40,
                 child: ElevatedButton(
                   style: ButtonStyle(
