@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 // import 'package:google_fonts/google_fonts.dart';
-import 'package:puree_app/login/merchant_login.dart';
+import 'package:puree_app/login/merchant_landing.dart';
 
-import 'package:flutter_svg/flutter_svg.dart';
+// import 'package:flutter_svg/flutter_svg.dart';
 // import 'assets/images/logo.svg';
 
 class Login extends StatelessWidget {
@@ -10,7 +10,7 @@ class Login extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Widget svg = SvgPicture.asset('assets/images/logo.svg');
+    // final Widget svg = SvgPicture.asset('assets/images/logo.svg');
     return Scaffold(
       backgroundColor: Colors.blueGrey[100],
       body: Align(
@@ -28,12 +28,15 @@ class Login extends StatelessWidget {
                 child:
                     const Image(image: AssetImage('assets/images/cloud2.png')),
               ),
+              Container(
+                alignment: Alignment.bottomCenter,
+                padding: const EdgeInsets.fromLTRB(0, 280, 0, 0),
+                child: Image.asset(
+                  ('assets/images/logo.png'),
+                  scale: 0.9,
+                ),
+              ),
             ],
-          ),
-          Container(
-            alignment: Alignment.center,
-            padding: const EdgeInsets.fromLTRB(0, 25, 0, 0),
-            child: SvgPicture.asset('assets/images/logo.svg'),
           ),
           // const FirstRoute(),
           // const SecondRoute()
@@ -51,7 +54,7 @@ class Login extends StatelessWidget {
                       backgroundColor: MaterialStateProperty.all<Color>(
                           const Color(0xFF8096A3))),
                   child: const Text(
-                    'Here to by',
+                    'Here to buy',
                     style: TextStyle(fontSize: 15),
                   ),
                   onPressed: () {},
