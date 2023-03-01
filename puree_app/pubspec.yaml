@@ -12,6 +12,8 @@ dependencies:
   flutter:
     sdk: flutter
   firebase_auth: ^4.2.9
+  hexcolor: ^3.0.1
+  cloud_firestore: ^4.4.3
 
 dev_dependencies:
   flutter_test:
@@ -20,3 +22,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - lib/images/
