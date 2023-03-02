@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:puree_app/login/login_by_email.dart';
+import 'package:puree_app/services/auth_service.dart';
 // import 'package:google_fonts/google_fonts.dart';
 // import 'package:puree_app/login/merchant_login.dart';
 
@@ -84,9 +85,7 @@ class Merchant extends StatelessWidget {
                     style: TextStyle(fontSize: 15, color: Color(0xFF666666)),
                   ),
                   onPressed: () {
-                    Navigator.pop(
-                      context,
-                    );
+                    AuthService();
                   },
                 )),
           )
