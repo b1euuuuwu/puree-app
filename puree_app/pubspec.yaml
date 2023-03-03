@@ -8,10 +8,14 @@ environment:
 
 dependencies:
   firebase_core: ^2.7.0
+  flutter_svg: ^0.17.1
+  firebase_auth: ^4.2.9
+  google_fonts: ^2.1.1
   google_sign_in: ^6.0.1
+
   flutter:
     sdk: flutter
-  firebase_auth: ^4.2.9
+  # firebase_auth: ^4.2.9
   hexcolor: ^3.0.1
   cloud_firestore: ^4.4.3
 
@@ -21,7 +25,12 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-  uses-material-design: true
-
+  # uses-material-design: true
   assets:
-    - lib/images/
+    - assets/images/cloud.png
+    - assets/images/cloud2.png
+    - assets/images/logo.png
+    - assets/images/logo.svg
+    - assets/images/merchant_logo.png
+    - google_fonts/
+    # - lib/images
